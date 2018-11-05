@@ -18,6 +18,7 @@ from six import with_metaclass
 # Number of days over which to compute rolls when finding the current contract
 # for a volume-rolling contract chain. For more details on why this is needed,
 # see `VolumeRollFinder.get_contract_center`.
+
 ROLL_DAYS_FOR_CURRENT_CONTRACT = 90
 
 
