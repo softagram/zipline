@@ -54,6 +54,7 @@ implements the following algorithm for executing pipelines:
 7. Extract the pipeline's outputs from the workspace and convert them
    into "narrow" format, with output labels dictated by the Pipeline's
    screen. This logic lives in SimplePipelineEngine._to_narrow.
+   
 """
 from abc import ABCMeta, abstractmethod
 from six import iteritems, with_metaclass, viewkeys
